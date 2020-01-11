@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="PPTHelper.fs" />
+    <Compile Include="SlideGroup.fs" />
+    <Compile Include="Intro.fs" />
+    <Compile Include="FunctionalLanguage.fs" />
+    <Compile Include="ParadigmShift.fs" />
+    <Compile Include="BigWave.fs" />
+    <Compile Include="FSharp.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Presentation.Net.Core" Version="17.4.0.39" />
+  </ItemGroup>
+
+</Project>

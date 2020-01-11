@@ -1,0 +1,6 @@
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+**/AssemblyInfo.fs
+*.pptx
